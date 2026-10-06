@@ -1,0 +1,19 @@
+# ── secrets ──────────────────────────────────────────────
+.env
+
+# ── runtime data (never commit) ──────────────────────────
+creds/
+keys.txt
+keys_farmed.txt
+proxies.txt
+proxies-live.txt
+.proxy-tmp.txt
+
+# ── python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/

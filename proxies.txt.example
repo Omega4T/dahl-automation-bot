@@ -1,0 +1,8 @@
+# One proxy per line. Only lines starting with "http" are read.
+# Format:  http://user:pass@host:port   (or socks5://...)
+#
+# Rename this file to `proxies.txt` and paste your pool below.
+# Run `python dahl_farm.py proxy` to validate and move live ones to proxies-live.txt.
+
+http://user:pass@proxy.example.com:10000
+http://user:pass@proxy.example.com:10001
